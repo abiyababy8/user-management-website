@@ -64,7 +64,7 @@ class UserManagement {
                 this.dataBase[uname] = { username: uname, email: uemail, password: upassword }
                 this.saveData();
                 alert(`${uname} successfully registered!`)
-                window.location = "login.html"
+                window.location = "index.html"
             }
         }
         else {
